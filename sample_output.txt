@@ -1,0 +1,45 @@
+RUBIK'S CUBE VISION SOLVER
+===========================
+
+Sample Output
+
+Input:
+Six images representing the six faces of a 3×3 Rubik's Cube.
+
+Processing:
+1. Load cube face images
+2. Detect 3×3 sticker grid
+3. Convert image to HSV
+4. Classify sticker colors
+5. Validate cube configuration
+6. Generate Kociemba cube string
+7. Solve cube
+8. Display solution moves
+
+Sample run
+----------
+
+Detected face stickers:
+
+U: ...
+R: ...
+F: ...
+D: ...
+L: ...
+B: ...
+
+Kociemba cube string:
+......................................................
+
+Solution moves:
+R U R' F2 U' L2
+
+Step-by-step:
+1. R  -> Turn R face clockwise
+2. U  -> Turn U face clockwise
+3. R' -> Turn R face counterclockwise
+4. F2 -> Turn F face 180 degrees
+5. U' -> Turn U face counterclockwise
+6. L2 -> Turn L face 180 degrees
+
+Solver completed.

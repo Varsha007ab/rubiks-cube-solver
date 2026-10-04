@@ -1,0 +1,4 @@
+# Runtime dependencies for Rubik's Cube Vision Solver
+opencv-python-headless
+numpy
+kociemba
